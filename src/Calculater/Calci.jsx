@@ -25,7 +25,7 @@ function Calci() {
   {
     return;
   };
-  const value = cal.pop(-1)
+  const value = cal.slice(0,-1)
   setCal(value);
 
   };
